@@ -1,0 +1,8 @@
+times = ('Palmeiras', 'Corinthians', 'Fluminense','Atletico-MG', 'Athletico-PR', 'Flamengo','Internacional', 'Bragantino', 'Santos','São Paulo', 'Botafogo', 'Ceará-SC', 'Goiás', 'America-MG', 'Avai', 'Cuiabá','Coritiba', 'Atlético-GO', 'Juventude', 'Fortaleza')
+print(f'Times do Brasileirão 2022 {times}')
+print()
+print(f'Os 5 primeiros times são: {times[0:5]}')
+print()
+print(f'Os ultimos 4 são: {times[16:21]}')
+print()
+print(sorted(times))
